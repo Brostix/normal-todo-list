@@ -1,6 +1,6 @@
 import React, { useEffect, useState, Fragment } from "react";
 
-function List() {
+function MyList() {
 	const newURL = "https://assets.breatheco.de/apis/fake/todos/user/";
 	const [myList, setmyList] = useState([]);
 	const [pintedList, setPintedList] = useState("");
@@ -80,4 +80,4 @@ function List() {
 		</div>
 	);
 }
-export default List;
+export default MyList;
